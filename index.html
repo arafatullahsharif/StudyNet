@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyNet</title>
+    <style>
+    
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+        }
+        /* Header */
+        .header {
+            background-color: #1877f2;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header input[type="text"] {
+            padding: 5px 10px;
+            border-radius: 20px;
+            border: none;
+            width: 250px;
+        }
+        /* Main container */
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        /* Left login box */
+        .login-box {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+        .login-box h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #1877f2;
+        }
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        .login-box button {
+            width: 100%;
+            padding: 12px;
+            background-color: #1877f2;
+            color: rgb(177, 17, 17);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        
+        .login-box a {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #1877f2;
+            text-decoration: none;
+        }
+        .signup-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .signup-box button {
+            background-color: #42b72a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>StudyNet</h1>
+        <input type="text" placeholder="Search StudyNet">
+    </div>
+
+    <div class="container">
+        <div class="login-box">
+            <h2>Login to StudyNet</h2>
+            <input type="text" placeholder="Email or Phone">
+            <input type="password" placeholder="Password">
+            <button><button > <from action ="studynet.html"method="get"><input type="login" value="login"></from></button>
+            <a href="#">Forgot Password?</a>
+
+            <div class="signup-box">
+                <p>New to StudyNet?</p>
+                <button><form action="studynet.html" method="get">
+    <input type="submit" value="Submit">
+</form>
+</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
